@@ -4,25 +4,25 @@
 // L’output del prezzo finale con al massimo due decimali.
 
 
-const km = prompt('inserisci i Km da percorrere') ;  //string
+const km = parseInt(prompt('inserisci i Km da percorrere')) ;  //number
 console.log('Km da percorrere: ' ,km) ;
 
-const age = prompt('inserisci la tua età') ;  //string
+const age = parseInt(prompt('inserisci la tua età')) ;  //number
 console.log('Età: ' ,age)
 
 // PREZZO DEL BIGLIETTO: 0.21€/Km
 
 // SE età 18 / 65 ALLORA Prezzo Pieno
 
-const price = (parseFloat(0.21 * km).toFixed(2)) ;  //number
+const price = (0.21 * km).toFixed(2) ;  //number
 
 // ALTRIMENTI SE età < 18 ALLORA Sconto 20%
 
-const discount20 = (parseFloat(price * 0.2).toFixed(2)) ;  //number
+const discount20 = (price * 0.2).toFixed(2) ;  //number
 
 // ALTRIMENTI età > 65 ALLORA Sconto 40%
 
-const discount40 = (parseFloat(price * 0.4).toFixed(2)) ;  //number
+const discount40 = (price * 0.4).toFixed(2) ;  //number
 
 
 // CALCOLO
