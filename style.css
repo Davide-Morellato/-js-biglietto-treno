@@ -1,7 +1,10 @@
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
     background-image: url(./keep-calm-dont-panic-600nw-286489589.jpg);
     background-size: cover;
     background-position: center;
