@@ -1,0 +1,10 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(./keep-calm-dont-panic-600nw-286489589.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
